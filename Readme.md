@@ -1,4 +1,5 @@
 Task 1: Number of helpful votes of a review
+
 Modelled the ratio nHelpful/outOf using regression.
 
 Features that worked.
@@ -12,7 +13,7 @@ Features that worked.
 8. Number of capital letters in reviewText
 9. Number of capital letters in the summary
 10. Number of outOf votes the review has.
-11. Sentiment analysis score – a review is helpful if the rating is high and the review is highly positive or the rating is low and the review is highly negative
+11. Sentiment analysis score â€“ a review is helpful if the rating is high and the review is highly positive or the rating is low and the review is highly negative
 12. Step function for rating
 13. Automated readability index (ARI)
 14. Rating deviation from mean
@@ -24,4 +25,5 @@ Features that did not work.
 4. Using step function for reviewText length
 
 Task 2: Rating Prediction
+
 I implemented a latent factor model for predicting the rating of the books. We are treating user and item features independently. This is most probably because we did not have enough data for user-item feature modelling, that is, a user had rated only a few books. So we were not able to fit a good model to this data.
